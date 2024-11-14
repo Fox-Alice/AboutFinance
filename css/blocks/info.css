@@ -1,0 +1,101 @@
+.info__text {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    margin: 0 0 24px;
+}
+
+.info__descriptoin {
+    font-size: 18px;
+    line-height: 24px;
+    color: #696E82;
+    margin: 0 0 48px;
+}
+
+.info__navigation-list {
+    margin: 0 0 60px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info__navigation-item {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.info__navigation-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.info__navigation-logo--credits {
+    background-image: url(../../img/info__list-img-credits.png);
+}
+
+.info__navigation-logo--card {
+    background-image: url(../../img/info__list-img-card.png);
+}
+
+.info__navigation-logo--invest {
+    background-image: url(../../img/info__list-img-invest.png);
+}
+
+.info__navigation-logo--mortgage {
+    background-image: url(../../img/info__list-img-mortgage.png);
+}
+
+.info__navigation-logo--deposit {
+    background-image: url(../../img/info__list-img-deposit.png);
+}
+
+.info__navigation-logo--remittance {
+    background-image: url(../../img/info__list-img-remittance.png);
+}
+
+.info__navigation-logo--security {
+    background-image: url(../../img/info__list-img-security.png);
+}
+
+.info__navigation-logo--lifestyle {
+    background-image: url(../../img/info__list-img-lifestyle.png);
+}
+
+.info__navigation-logo--innovation {
+    background-image: url(../../img/info__list-img-innovation.png);
+}
+
+.info__navigation-text {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.info__share-text {
+    font-size: 13px;
+    line-height: 16px;
+    color: #696E82;
+    margin: 0 0 12px;
+}
+
+.info__social-list {
+    margin: 0 0 24px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+.info__social-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDEEEF;
+    border-radius: 50%;
+}

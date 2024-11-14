@@ -1,0 +1,25 @@
+.main__nav-list {
+    margin: 0;
+    padding: 9px 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main__nav-link {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.main__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 712px;
+    gap: 128px;
+    padding: 60px 0 40px;
+}
+
